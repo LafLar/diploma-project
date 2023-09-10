@@ -1,0 +1,87 @@
+<div class="testimonial-box-container">
+     
+              <!--BOX-1---------------->
+              <div class="testimonial-box">
+                   <!--top------------------------->
+                   <div class="box-top">
+                        <!--profile---->
+                        <div class="profile">
+                             <!--img--->
+                             <div class="profile-img">
+                                  <img src="profile_img.png">
+                             </div>
+                             <!--name-and-username-->
+                             <div class="name-user">
+                                 <strong>Олексій</strong>
+                             </div>
+                        </div>
+                   </div>
+                   <!--Comments----------------------------------------->
+                   <div class="client-comment">
+                        <p>Досить зручний сервіс. Здивувала можливість перегляду схем маршрутів</p>
+                   </div>
+               </div>
+              <!--BOX-2---------------->
+              <div class="testimonial-box">
+                   <!--top------------------------->
+                   <div class="box-top">
+                        <!--profile---->
+                        <div class="profile">
+                             <!--img--->
+                             <div class="profile-img">
+                                <img src="profile_img.png">
+                             </div>
+                             <!--name-and-username-->
+                             <div class="name-user">
+                                 <strong>Артем</strong>
+                             </div>
+                        </div>
+                   </div>
+                   <!--Comments----------------------------------------->
+                   <div class="client-comment">
+                        <p>Досить зручний сервіс. Здивувала можливість перегляду схем маршрутів</p>
+                    </div>
+               </div>
+              <!--BOX-3---------------->
+              <div class="testimonial-box">
+                   <!--top------------------------->
+                   <div class="box-top">
+                        <!--profile---->
+                        <div class="profile">
+                             <!--img--->
+                             <div class="profile-img">
+                                <img src="profile_img.png">
+                             </div>
+                             <!--name-and-username-->
+                             <div class="name-user">
+                                 <strong>Олена</strong>
+                             </div>
+                        </div>
+                   </div>
+                   <!--Comments----------------------------------------->
+                    <div class="client-comment">
+                        <p>Дуже задоволена. Радує великий вибір рейсів та автобусів</p>
+                    </div>
+               </div>
+              <!--BOX-4---------------->
+              <div class="testimonial-box">
+                   <!--top------------------------->
+                   <div class="box-top">
+                        <!--profile---->
+                        <div class="profile">
+                             <!--img--->
+                             <div class="profile-img">
+                                <img src="profile_img.png">
+                             </div>
+                             <!--name-and-username-->
+                             <div class="name-user">
+                                 <strong>Іван Степанович</strong>
+                             </div>
+                        </div>
+                   </div>
+                   <!--Comments----------------------------------------->
+                   <div class="client-comment">
+                        <p>Давно користуюсь сервісом. Всі водії дуже чемні та досить акуратно керують. Поїздки не доставляють дискомфорту</p>
+                    </div>
+               </div>
+         </div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" lang="ukr">
+<title>Display a map on a webpage</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<script src="setting.js"></script>
+<!-- Import Mapbox GL JS -->
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet"/>
+<!-- Import Mapbox GL Directions -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css" type="text/css"/>
+<!-- Import Turf & Polyline -->
+<script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-polyline/1.1.1/polyline.js"></script>
+<!-- Import Style -->
+<link rel="stylesheet" href="map.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="intro.html" title="Перейти до головної сторінки"><button>Головна</button></a></li>
+            <li><a href="map.html" title="Переглянути маршрути"><button>Маршрути</button></a></li>
+            <li><a href="contacts.html" title="unnamed"><button>Контакти</button></a></li>
+            <li><a href="reviews.php" title="unnamed"><button>Відгуки</button></a></li>
+            <li><a href="enter_register.html" title="Увійти"><button><ion-icon name="enter-outline"></ion-icon></button></a></li>
+        </ul>
+        </nav>
+        <img src="logo2.png" alt="Логотип">
+    </header> 
+    <div class="heading"><h1 >Дізнайтесь схему руху автобуса</h1></div>
+    <div id="map"></div>
+    <!--<div class="sidebar">
+    <h1>Reports</h1>
+    <div id="reports"></div>
+    </div>-->
+     
+    <script src="map.js"></script>
+<footer>
+    <div class="empty">   </div>
+        <div class="text">
+            <h1>
+                FindWay - 
+                <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ "це зручно", "це швидко", "завжди доступно", "завжди поруч", "завжди вчасно" ]'>
+                </span>
+            </h1>
+            <h2>FindWay Inc. Всі права захищено. Produced by Laflare in 2023</h2>
+        </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

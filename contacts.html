@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+  <meta charset="UTF-8">
+  <title>FindWay</title>
+  <link rel="stylesheet" href="contacts.css">
+  <script src="setting.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="intro.html" title="Перейти до головної сторінки"><button>Головна</button></a></li>
+        <li><a href="map.html" title="Переглянути маршрути"><button>Маршрути</button></a></li>
+        <li><a href="contacts.html" title="Зв'яжіться з нами"><button>Контакти</button></a></li>
+        <li><a href="reviews.php" title="Відгуки"><button>Відгуки</button></a></li>
+        <li><a href="enter_register.html" title="Увійти"><button><ion-icon name="enter-outline"></ion-icon></button></a></li>
+      </ul>
+    </nav>
+    <img src="logo2.png" alt="Логотип">
+  </header>
+  <main>
+    <section class="left">
+        <h1 class="heading">ЗВ'ЯЖІТЬСЯ З НАМИ</h1>
+        <div class="container">
+            <form action="" method="post" class="contact">
+                <label for="name" class="label1">Ваше ім'я</label>
+                <input type="text" name="name" id="name" class="field">
+                <label for="email" class="label">Електронна пошта</label>
+                <input type="text" name="email" id="email" class="field">
+                <label for="message" class="label">Ваше повідомлення</label>
+                <input type="text" name="message" id="message" class="field"> 
+                <div class="button">
+                    <button class="btn btn-primary">НАДІСЛАТИ</button>  
+                </div> 
+            </form>
+        </div>
+    </section>
+    <section class="right">
+        <h1 class="heading">НАШІ СОЦІАЛЬНІ МЕРЕЖІ</h1>
+        <div class="container">
+            <div class="social">
+                <img src="facebook.png">
+                <img src="instagram.png">
+                <img src="telegram.png">
+            </div>
+        </div>
+        <h1 class="heading">КОНТАКТИ</h1>
+        <div class="container">
+            <div class="box">
+                <div class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p class="text">+380(63)1251221</p>
+                </div>
+                <div class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p class="text">+380(63)1251221</p>
+                </div> 
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p class="text">+380(63)1251221</p>
+                </div> 
+                <div class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <p class="text">findway.co@gmail.com</p>
+                </div>
+            </div>            
+        </div>
+        <h1 class="heading">МИ ЗНАХОДИМОСЬ ТУТ</h1>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.932111720144!2d30.49019976373129!3d50.442365172255286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cff0c5fa4597%3A0xf94d420bb23b9a4d!2z0JDQstGC0L7RgdGC0LDQvdGG0ZbRjyDQmtC40ZfQsg!5e0!3m2!1suk!2sua!4v1685219349722!5m2!1suk!2sua" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </section>
+  </main>
+  <footer>
+    <div class="empty">   </div>
+      <div class="text">
+          <h1>
+            FindWay - 
+              <span
+                  class="txt-rotate"
+                  data-period="2000"
+                  data-rotate='[ "це зручно", "це швидко", "завжди доступно", "завжди поруч", "завжди вчасно" ]'>
+              </span>
+          </h1>
+          <h2>FindWay Inc. Всі права захищено. Produced by Laflare in 2023</h2>
+      </div>
+  </footer>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

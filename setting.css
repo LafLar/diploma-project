@@ -1,0 +1,197 @@
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1f2029;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+   margin:0;
+   padding: 0;
+   font-family: 'Rubik', sans-serif; 
+}
+html, body{
+    height: 100%;
+    background-color: #1f2029;
+} 
+/* Стилі для заголовку сторінки */
+header {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img {
+    justify-content: left;
+    max-height: 60px;
+    order: 1; 
+    margin-right: 20px; 
+}
+/* Стилі для навігаційного меню */
+nav {
+    order: 2; 
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+nav li:last-child{
+    margin-right: 30px;
+}
+nav a {
+    color: #ffeba7;
+    text-decoration: none;
+    margin-left: 10px;
+}
+nav a:hover {
+    color: #c4c3ca;
+}
+nav li button{
+    font-size: 1.2em;
+    border-radius: 30px;
+    height: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition : all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 15px;
+    border-color: #ffeba7;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #2b2e38;
+    color: #ffeba7;
+}
+nav li button:hover{  
+    background-color: #000000;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+  /* Стилі для логотипу */
+header img {
+    max-height: 160px;
+}
+/* Стилі для основного вмісту */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 81.6%;
+    position: relative;
+}
+.main-text{
+    display: flex;
+    
+}
+.content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 440px;
+    max-width: 60%;
+    height: 300px;
+    max-height: 50%;
+    perspective: 400px;
+    margin-top: 1px;
+    color:#ffeba7;
+}
+.card{
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #2b2e38;
+    border-radius: 10px;
+}
+.finder-group{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px 0;
+    padding-top: 40px;
+}
+.finder{
+    display:flex;
+    margin-top: 20px;
+    padding-left: 0px;
+    height: 48px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+}
+.finder-way{
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 85px;
+    border-radius: 4px;
+    height: 44px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition : all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    border: none;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffeba7;
+    color: #000000;
+}
+.btn:hover{  
+    background-color: #000000;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+/* Стилі для підвалу */
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+.text h1,h2 {
+    font-weight: 200;
+}
+.text h1 {
+    color: #ffeba7;
+    text-align: left; 
+    font-size: 1.5em; 
+}
+.text h2 {
+    color: #888;
+    font-size: 1em;
+}
